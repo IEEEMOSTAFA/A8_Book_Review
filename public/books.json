@@ -1,0 +1,81 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "Atomic Habits",
+      "author": "James Clear",
+      "image": "https://i.ibb.co/RQjBsyG/Atomic-book.png",
+      "review": "A fantastic guide to building effective habits and breaking bad ones with practical examples and clear strategies.",
+      "totalPages": 320,
+      "rating": 4.8,
+      "category": "Self-help",
+      "tags": ["Habits", "Productivity", "Psychology"],
+      "publisher": "Penguin Random House",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": 2,
+      "bookName": "The Midnight Library",
+      "author": "Matt Haig",
+      "image": "https://i.ibb.co/N9D3Wwv/mid-night.jpg",
+      "review": "A thought-provoking novel about life, regrets, and the infinite possibilities in between.",
+      "totalPages": 304,
+      "rating": 4.3,
+      "category": "Fiction",
+      "tags": ["Fantasy", "Life Choices", "Philosophy"],
+      "publisher": "Canongate Books",
+      "yearOfPublishing": 2020
+    },
+    {
+      "bookId": 3,
+      "bookName": "Educated",
+      "author": "Shakspare",
+      "image": "https://i.ibb.co/4ZXm3vy/shakspare.jpg",
+      "review": "An inspiring memoir of a woman who overcomes her strict upbringing to pursue an education and a new life.",
+      "totalPages": 334,
+      "rating": 4.7,
+      "category": "Memoir",
+      "tags": ["Education", "Autobiography", "Inspiration"],
+      "publisher": "Random House",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": 4,
+      "bookName": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "image": "https://i.ibb.co/W3CCYw1/Sapines.jpg",
+      "review": "A deep and fascinating look at the history and evolution of humanity, from our earliest ancestors to the modern day.",
+      "totalPages": 498,
+      "rating": 4.6,
+      "category": "History",
+      "tags": ["Anthropology", "Evolution", "Science"],
+      "publisher": "Harper",
+      "yearOfPublishing": 2015
+    },
+    {
+      "bookId": 5,
+      "bookName": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "image": "https://i.ibb.co/0Z1Gwgf/power.jpg",
+      "review": "A spiritual guide to living in the present moment, free from the anxieties of the past and future.",
+      "totalPages": 236,
+      "rating": 4.5,
+      "category": "Spirituality",
+      "tags": ["Mindfulness", "Wellness", "Philosophy"],
+      "publisher": "New World Library",
+      "yearOfPublishing": 1997
+    },
+    {
+      "bookId": 6,
+      "bookName": "Becoming",
+      "author": "Michelle Obama",
+      "image": "https://i.ibb.co/d279R3z/becoming.jpg",
+      "review": "A deeply personal and inspiring memoir by the former First Lady of the United States, chronicling her journey from Chicago to the White House.",
+      "totalPages": 448,
+      "rating": 4.9,
+      "category": "Biography",
+      "tags": ["Politics", "Leadership", "Inspiration"],
+      "publisher": "Crown Publishing Group",
+      "yearOfPublishing": 2018
+    }
+  ]
+  
