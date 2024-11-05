@@ -10,6 +10,7 @@ import Errorpage from './components/Errorpage/Errorpage';
 import Home from './components/Home/Home';
 import BookDetails from './components/BookDetails/BookDetails';
 import ListedBooks from './components/ListedBooks/ListedBooks';
+import PagesToRead from './components/PagesToRead/PagesToRead';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,18 @@ const router = createBrowserRouter([
         element: <ListedBooks></ListedBooks>,
         loader: () => fetch('/books.json') //warning: only load the data you need .do not load all the data
       },
+      {
+        path: '/pagestoread',
+        element: <PagesToRead></PagesToRead>,// Separate path for PagesToRead
+        loader: () => fetch('/books.json') //warning: only load the data you need .do not load all the data
+      },
+      // {
+      //   path: '/pages-to-read',
+      //   element: <PagesToRead></PagesToRead>, // Add a comma here
+      //   loader: () => fetch('/books.json') //warning: only load the data you need; do not load all the data
+      // },
+      
+     
       
       
       {
