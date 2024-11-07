@@ -14,7 +14,7 @@
     },
     {
       "bookId": "2",
-      "bookName": "The Midnight Library",
+      "bookName": "Midnight",
       "author": "Matt Haig",
       "image": "https://i.ibb.co/N9D3Wwv/mid-night.jpg",
       "review": "A thought-provoking novel about life, regrets, and the infinite possibilities in between.",
@@ -40,7 +40,7 @@
     },
     {
       "bookId": "4",
-      "bookName": "Sapiens: A Brief History of Humankind",
+      "bookName": "Sapiens",
       "author": "Yuval Noah Harari",
       "image": "https://i.ibb.co/W3CCYw1/Sapines.jpg",
       "review": "A deep and fascinating look at the history and evolution of humanity, from our earliest ancestors to the modern day.",
@@ -53,7 +53,7 @@
     },
     {
       "bookId": "5",
-      "bookName": "The Power of Now",
+      "bookName": "The_Power",
       "author": "Eckhart Tolle",
       "image": "https://i.ibb.co/0Z1Gwgf/power.jpg",
       "review": "A spiritual guide to living in the present moment, free from the anxieties of the past and future.",

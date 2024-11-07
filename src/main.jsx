@@ -34,11 +34,7 @@ const router = createBrowserRouter([
         element: <PagesToRead></PagesToRead>,// Separate path for PagesToRead
         loader: () => fetch('/books.json') //warning: only load the data you need .do not load all the data
       },
-      // {
-      //   path: '/pages-to-read',
-      //   element:<testChart
-      //   loader: () => fetch('/books.json') //warning: only load the data you need; do not load all the data
-      // },
+      
       
      
       
@@ -51,7 +47,7 @@ const router = createBrowserRouter([
           const books = await response.json();
           return books;
         },
-        // s
+        
         
       }
       
