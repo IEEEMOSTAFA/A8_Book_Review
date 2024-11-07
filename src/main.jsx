@@ -10,7 +10,9 @@ import Errorpage from './components/Errorpage/Errorpage';
 import Home from './components/Home/Home';
 import BookDetails from './components/BookDetails/BookDetails';
 import ListedBooks from './components/ListedBooks/ListedBooks';
+import { element } from 'prop-types';
 import PagesToRead from './components/PagesToRead/PagesToRead';
+// import renderBarChart from './components/renderBarChart/renderBarChart';
 
 const router = createBrowserRouter([
   {
@@ -34,7 +36,7 @@ const router = createBrowserRouter([
       },
       // {
       //   path: '/pages-to-read',
-      //   element: <PagesToRead></PagesToRead>, // Add a comma here
+      //   element:<testChart
       //   loader: () => fetch('/books.json') //warning: only load the data you need; do not load all the data
       // },
       
@@ -49,6 +51,7 @@ const router = createBrowserRouter([
           const books = await response.json();
           return books;
         },
+        // s
         
       }
       
