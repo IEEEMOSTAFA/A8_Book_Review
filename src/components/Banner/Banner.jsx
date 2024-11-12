@@ -15,7 +15,8 @@ const Banner = () => {
             {/* Image Section */}
             <div className="w-full md:w-1/2 flex justify-center md:justify-end">
                 <img
-                    src="/src/logo/playbook.png"
+                    // src="/src/logo/playbook.png"
+                    src="https://i.ibb.co/NTKGdXT/tplay-Book-Men-removebg-preview.png"
                     alt="Bookshelf"
                     className="w-60 md:w-80 h-auto object-contain"
                 />
