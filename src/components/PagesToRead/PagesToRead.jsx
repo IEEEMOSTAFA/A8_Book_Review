@@ -78,6 +78,7 @@
 // export default PagesToRead;
 
 import React, { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { useLoaderData } from 'react-router-dom';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 
@@ -118,6 +119,9 @@ const PagesToRead = () => {
 
   return (
     <div className="container mx-auto p-4">
+      <Helmet>
+        <title>Chart Measure</title>
+      </Helmet>
       <h2 className="text-center text-2xl sm:text-3xl font-bold mb-6">Pages to Read</h2>
       <div className="flex justify-center">
         <div className="w-full sm:w-10/12 md:w-8/12 lg:w-6/12">

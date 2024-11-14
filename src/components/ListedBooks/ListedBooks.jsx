@@ -119,6 +119,7 @@
 import { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import { getStoredJobApplication } from '../Utility/localstorage';
+import { Helmet } from 'react-helmet-async';
 
 const ListedBooks = () => {
   const books = useLoaderData();
@@ -157,6 +158,11 @@ const ListedBooks = () => {
 
   return (
     <div className="container mx-auto my-8 p-4">
+      <Helmet>
+      <title>New Book List</title>
+
+      </Helmet>
+      
       {/* Header */}
       <header className="text-center mb-6">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">My Book Collection</h1>

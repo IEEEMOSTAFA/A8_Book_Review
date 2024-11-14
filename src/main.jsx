@@ -12,6 +12,7 @@ import BookDetails from './components/BookDetails/BookDetails';
 import ListedBooks from './components/ListedBooks/ListedBooks';
 import { element } from 'prop-types';
 import PagesToRead from './components/PagesToRead/PagesToRead';
+import { HelmetProvider } from 'react-helmet-async';
 // import renderBarChart from './components/renderBarChart/renderBarChart';
 
 const router = createBrowserRouter([
@@ -59,6 +60,9 @@ const router = createBrowserRouter([
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
+    <HelmetProvider>
     <RouterProvider router={router} />
+    </HelmetProvider>
+    
   </StrictMode>,
 )
